@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>karamtara_Engineering_validation_rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Name = &quot;KEPL8&quot;, Quantity__c  &lt; 1000)</errorConditionFormula>
+    <errorMessage>IF KARAMTARA ENGINEERING NAME IS EQUAL TO KEPL 8 THEN MUST BE GREATER THAN 1000</errorMessage>
+</ValidationRule>
